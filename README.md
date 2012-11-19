@@ -20,7 +20,7 @@ It's pretty simple to use the factory, you only will need to dipose a url and yo
 ### Url ###
 Url need to have an json source e.g.:
 
-<!-- language: lang-none -->
+<!-- language: lang-json -->
 [{name: "Doug", age: "25", weight:"100kg"}, {name: "Alex", age:"30", weight: "90kg"}]
 
 <!-- language: lang-js -->
