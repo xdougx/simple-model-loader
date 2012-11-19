@@ -14,14 +14,13 @@ Dependencies:
 
 ### Pipiline ###
 <!-- language: lang-js -->
-/*  
- ...  
-   
+/*     
  *= require jquery  
  *= require underscore  
  *= require utils/model  
  *= require app/models/YourModelJs  
  *= require model_loader  
+ ...  
  */  
    
  //  if you like, becouse I Love Sammy  
