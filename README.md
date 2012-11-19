@@ -24,16 +24,13 @@ Url need to have an json source e.g.:
 [{name: "Doug", age: "25", weight:"100kg"}, {name: "Alex", age:"30", weight: "90kg"}]
 
 <!-- language: lang-js -->
-$(function() {
-	var loader = new ModelLoader();
-	loader.load("/path/to/json", "Model");
-	
-	_.each(Model.all(), function(model) {
-		console.log( model.attr("name") );
+	$(function() {
+		var loader = new ModelLoader();
+		loader.load("/path/to/json", "Model");
+		_.each(Model.all(), function(model) {
+			console.log( model.attr("name") );
+		});	
 	});
-
-	
-});
 
 <!-- language: lang-none -->
 > "Doug"
