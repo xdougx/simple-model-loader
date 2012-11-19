@@ -19,8 +19,6 @@ Dependencies:
 <script src="/assets/app/model_loader.js?body=1" type="text/javascript"></script>
 <script src="/assets/utils/sammy.js?body=1" type="text/javascript"></script> // if you like, becouse I Love Sammy
 
-</head>
-
 Usage:
 ------
 It's pretty simple to use the factory, you only will need to dipose a url and your Model JS
