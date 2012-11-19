@@ -12,7 +12,7 @@ Dependencies:
 - jQuery (http://www.jquery.com),
 - JS-Model (http://benpickles.github.com/js-model/)
 
-<!-- language: lang-js -->
+<!-- language: lang-html -->
 <script src="/assets/jquery.js" type="text/javascript"></script>
 <script src="/assets/underscore.js?" type="text/javascript"></script>
 <script src="/assets/utils/Model.js" type="text/javascript"></script>
