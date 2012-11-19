@@ -12,6 +12,15 @@ Dependencies:
 - jQuery (http://www.jquery.com),
 - JS-Model (http://benpickles.github.com/js-model/)
 
+<!-- language: lang-js -->
+<script src="/assets/jquery.js" type="text/javascript"></script>
+<script src="/assets/underscore.js?" type="text/javascript"></script>
+<script src="/assets/utils/Model.js" type="text/javascript"></script>
+<script src="/assets/app/model_loader.js?body=1" type="text/javascript"></script>
+<script src="/assets/utils/sammy.js?body=1" type="text/javascript"></script> // if you like, becouse I Love Sammy
+
+</head>
+
 Usage:
 ------
 It's pretty simple to use the factory, you only will need to dipose a url and your Model JS
