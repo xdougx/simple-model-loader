@@ -12,7 +12,7 @@ Dependencies:
 - jQuery (http://www.jquery.com),
 - JS-Model (http://benpickles.github.com/js-model/)
 
-### Pipiline ###
+### Pipeline ###
 <!-- language: lang-js -->
 /*     
  *= require jquery  
