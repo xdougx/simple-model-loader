@@ -13,18 +13,14 @@ Dependencies:
 - JS-Model (http://benpickles.github.com/js-model/)
 
 ### Pipeline ###
-<!-- language: lang-js -->
-/*     
- *= require jquery  
- *= require underscore  
- *= require utils/model  
- *= require app/models/YourModelJs  
- *= require model_loader  
- ...  
- */  
-   
- //  if you like, becouse I Love Sammy  
- //= require utils/sammy  
+<!-- language: lang-js -->  
+ /*= require jquery  
+  *= require underscore  
+  *= require utils/model  
+  *= require app/models/YourModelJs  
+  *= require model_loader  
+  *= if you like, becouse I Love Sammy  
+  *= require utils/sammy */
  
 Usage:
 ------
