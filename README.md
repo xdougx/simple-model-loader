@@ -12,13 +12,19 @@ Dependencies:
 - jQuery (http://www.jquery.com),
 - JS-Model (http://benpickles.github.com/js-model/)
 
-<!-- language: lang-html -->
-<script src="/assets/jquery.js" type="text/javascript"></script>
-<script src="/assets/underscore.js?" type="text/javascript"></script>
-<script src="/assets/utils/Model.js" type="text/javascript"></script>
-<script src="/assets/app/model_loader.js?body=1" type="text/javascript"></script>
-<script src="/assets/utils/sammy.js?body=1" type="text/javascript"></script> // if you like, becouse I Love Sammy
-
+<!-- language: lang-js -->
+/*
+ *  Pipeline
+ *= require jquery
+ *= require underscore
+ *= require utils/model
+ *= require app/models/YourModelJs
+ *= require model_loader
+ */
+ 
+ //  if you like, becouse I Love Sammy
+ //= require utils/sammy  
+ 
 Usage:
 ------
 It's pretty simple to use the factory, you only will need to dipose a url and your Model JS
