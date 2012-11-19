@@ -12,9 +12,11 @@ Dependencies:
 - jQuery (http://www.jquery.com),
 - JS-Model (http://benpickles.github.com/js-model/)
 
+### Pipiline ###
 <!-- language: lang-js -->
 /*  
- *  Pipeline  
+ ...  
+   
  *= require jquery  
  *= require underscore  
  *= require utils/model  
