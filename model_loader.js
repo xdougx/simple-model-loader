@@ -15,7 +15,6 @@ var ModelLoader = function(){
 	// the load function call the load data and produce all objects to the specified model
 	this.load = function(url, klass){
 		var json = this.load_data(url, klass);
-		console.log(json)
 		this.modelFactory(json, klass);
 	};
 
