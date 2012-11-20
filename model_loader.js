@@ -15,6 +15,7 @@ var ModelLoader = function(){
 	// the load function call the load data and produce all objects to the specified model
 	this.load = function(url, klass){
 		var json = this.load_data(url, klass);
+		console.log(json)
 		this.modelFactory(json, klass);
 	};
 
@@ -34,20 +35,14 @@ var ModelLoader = function(){
 
 	// load the json from an url, return an parsed json
 	this.load_data = function(url){
-		try {
-			var loaded_content = $.ajax({
-		  		url: url,
-					type: 'GET',
-					dataType: 'json',
-		  		async: false
-		 		}).responseText;
+		var loaded_content = $.ajax({
+			url: url,
+			type: 'GET',
+			dataType: 'json',
+			async: false
+		}).responseText;
 
-			return jQuery.parseJSON(loaded_content);
-		}catch(e){
-			
-			alert("deu erro :D")
-		}
- 		
+		return jQuery.parseJSON(loaded_content); 		
 	};
 };
 
